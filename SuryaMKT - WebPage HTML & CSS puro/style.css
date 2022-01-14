@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+
+}
+.container-pai{
+    width: 800px;
+    margin: 0 auto;    
+}
+
+.cabecalho{
+    position: relative;
+}
+.logo-cabecalho1{
+    width: 100%;
+    height: 170px;    
+}
+.logo-transparente{
+    position: absolute;
+    top: 40px;
+    left: 207px;
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: center;
+}
+.secao-principal{
+    width: 700px;
+    
+}
+.artigos{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px 0;
+}
+.titulos-destaque{
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.botao{
+    background: #0b9444;
+    padding: 20px;
+    width: 200px;
+    margin: 30px 0;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 20px 20px 15px rgba(0,0,0,0.25);
+}
+.linha-css{
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+.alinhamento-texto{
+    text-align: start;
+}
+.subtitulos{
+    margin: 20px 0;
+}
+.container-imagens-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+.imagens{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 15px rgba(0,0,0,0.25);
+}
+.hover:hover{
+    transition: all 1s linear;
+    font-size: calc(2% * 60);
+}
+.ultimo-botao{
+    width: 350px;
+}
+
+.rodape{
+    background: #0b9444;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.imagem2{
+    height: 100px;
+
+}
